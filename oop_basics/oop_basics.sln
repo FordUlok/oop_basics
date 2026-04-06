@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zoo", "zoo\zoo.csproj", "{859FCE93-FC57-4D1E-93F8-ACEDF9AF285C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "marathon", "marathon\marathon.csproj", "{0D84E193-6F94-4337-8AD2-B0D5CFD2A6E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{859FCE93-FC57-4D1E-93F8-ACEDF9AF285C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859FCE93-FC57-4D1E-93F8-ACEDF9AF285C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859FCE93-FC57-4D1E-93F8-ACEDF9AF285C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859FCE93-FC57-4D1E-93F8-ACEDF9AF285C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D84E193-6F94-4337-8AD2-B0D5CFD2A6E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D84E193-6F94-4337-8AD2-B0D5CFD2A6E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D84E193-6F94-4337-8AD2-B0D5CFD2A6E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D84E193-6F94-4337-8AD2-B0D5CFD2A6E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
