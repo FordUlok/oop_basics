@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zoo", "zoo\zoo.csproj", "{8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "marathon", "marathon\marathon.csproj", "{0D84E193-6F94-4337-8AD2-B0D5CFD2A6E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inheritance", "inheritance\inheritance.csproj", "{0547F56B-27E6-4BF2-8956-4152B5D0D504}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{0D84E193-6F94-4337-8AD2-B0D5CFD2A6E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D84E193-6F94-4337-8AD2-B0D5CFD2A6E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D84E193-6F94-4337-8AD2-B0D5CFD2A6E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0547F56B-27E6-4BF2-8956-4152B5D0D504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0547F56B-27E6-4BF2-8956-4152B5D0D504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0547F56B-27E6-4BF2-8956-4152B5D0D504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0547F56B-27E6-4BF2-8956-4152B5D0D504}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
