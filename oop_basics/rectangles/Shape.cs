@@ -1,6 +1,6 @@
 ﻿namespace inheritance;
 
-abstract class Shape
+public abstract class Shape
 {
     private bool isHoley;
     private string color;
@@ -39,5 +39,22 @@ abstract class Shape
         }
     }
 
+    public override string ToString()
+    {
+        return "Szín: " + color +
+               ", Lyukas: " + isHoley +
+               ", Megjeleníthető: " + Displayable +
+               ", Kerület: " + Perimeter() +
+               ", Terület: " + Area();
+    }
 
+    public override bool Equals(object? obj)
+    {
+        if (obj is Shape other)
+        {
+            return this.color == other.color &&
+                   this.isHoley == other.isHoley;
+        }
+        return false;
+    }
 }
