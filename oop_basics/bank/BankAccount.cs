@@ -1,6 +1,6 @@
 ﻿namespace bank;
 
-public abstract class BankAccount : BankingService
+public abstract class BankAccount : BankingService, IComparable
 {
     public decimal Balance { get; protected set; }
 
@@ -21,5 +21,15 @@ public abstract class BankAccount : BankingService
     public BankCard NewCard(string cardNumber)
     {
         return new BankCard(this.Owner, this, cardNumber);
+    }
+
+    public int CompareTo(object? obj)
+    {
+        if (obj is BankAccount other)
+        {
+            return this.Balance.CompareTo(other.Balance);
+        }
+
+        throw new ArgumentException("Az objektum nem BankAccount típusú!");
     }
 }

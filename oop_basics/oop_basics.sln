@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rectangles", "rectangles\re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bank", "bank\bank.csproj", "{FD4975BA-0F8A-4C2A-BD28-FE277CAEB0E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "realestate", "realestate\realestate.csproj", "{BFA093A1-4EFD-41D1-B67C-3C9989D40135}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{FD4975BA-0F8A-4C2A-BD28-FE277CAEB0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD4975BA-0F8A-4C2A-BD28-FE277CAEB0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD4975BA-0F8A-4C2A-BD28-FE277CAEB0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA093A1-4EFD-41D1-B67C-3C9989D40135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA093A1-4EFD-41D1-B67C-3C9989D40135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA093A1-4EFD-41D1-B67C-3C9989D40135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA093A1-4EFD-41D1-B67C-3C9989D40135}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
